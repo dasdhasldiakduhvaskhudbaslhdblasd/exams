@@ -603,16 +603,82 @@
     }
 }
 @media only screen and (max-width: 375px) {
+    .treatment, .prosthetics {
+        display: none;
+    }
+    .teeth-info {
+        width: 375px;
+    }
+    .la {
+        margin: 0;
+    }
+}
+/* end  */
 
+/* Start services section  */
+.section {
+    margin-top: 74px;
 }
 
+.new-divider {
+    border: none;
+    width: 50px;
+    background-color: #FFD600;
+    border-radius: 3px;
+    border: 2px solid #FFD600;
+}
+.section h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #272727;
+    text-align: center;
+    margin-top: 20px;
+}
+.section p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #4D4D4D;
+    width: 744px;
+    margin: 10px auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    list-style-type: none;
+    padding: 0;
+}
 
+.bosh {
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 66px;
+    padding: 20px;
+}
 
-
-
-
-
-
+.item {
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 240px;
+    padding: 20px;
+}
+.item h4 {
+    margin: 0;
+}
+.item p {
+    margin: 0;
+}
 
 
 
