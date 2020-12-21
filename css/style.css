@@ -1,0 +1,620 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); 
+    }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); 
+    }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin-500.woff') format('woff'); 
+    }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin-700.woff') format('woff');
+    }
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: inherit;
+      font-family: 'Roboto', sans-serif;
+      scroll-behavior: smooth;
+    }
+    
+  html {
+      box-sizing: border-box;
+    }
+    
+  body {
+      margin: 0;
+      padding: 0;
+    }
+  
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+    /* Start site-header  */
+  .site-header {
+      position: relative;
+  }
+  
+  .divider {
+      position: relative;
+      transform: translateY(30px);
+  }
+  
+  .company-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: -10px;
+      width: 1140px;
+    }
+  
+  .contact-us-link {
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+      text-decoration: none;
+      align-items: center;
+      transition: opacity 0.4s ease;
+    }
+  
+  .contact-us-link:hover {
+      opacity: 0.8;
+  }
+  .contact-us-link:active {
+      opacity: 0.6;
+  }
+  
+    .contact-us h4 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #272727;
+    }
+    .contact-us p {
+      margin: 0;
+      font-weight: 300;
+         font-size: 14px;
+      line-height: 16px;
+      color: #272727;
+      margin-top: 3px;
+    }
+  
+  .logo-link {
+      text-decoration: none;
+      transition: opacity .4s ease;
+  }
+  
+  .logo-link:hover {
+      opacity: 0.8;
+  }
+  
+  .logo-link:active {
+      opacity: 0.6;
+  }
+  
+  .logo-link p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #0055B8;
+      margin-top: 5px;
+  }
+  
+  .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 76px;
+  }
+  
+  .heading h1 {
+      margin: 0;
+      transform: rotate(90deg);
+      font-weight: 500;
+      font-size: 36px;
+      color: #FFD600;
+      text-shadow: 1px 1px 3px rgba(141, 110, 0, 0.25);
+      margin-left: 10px;
+  }
+  
+  .working-hours {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 197px;
+  }
+  
+  .clock-us h4 {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #00B007;
+      margin: 0;
+  }
+  
+  .clock-us p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 16px;
+      color: #272727;
+      margin: 0;
+      margin-top: 3px;
+  }
+  
+  .site-nav {
+      background-color: #0055B8;
+      border-radius: 5px;
+      width: 1140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 68px;
+  }
+  
+  .site-nav-list {
+      list-style-type: none;
+      padding: 0;
+      width: 530px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .site-nav-item a {
+      font-size: 18px;
+      line-height: 21px;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.4s ease,
+                  opacity 0.4s ease;
+  }
+  
+  .site-nav-item a:hover {
+      color: #FFD600;
+  }
+  
+  .site-nav-item a:active {
+      opacity: 0.6;
+  }
+  
+.heading-link {
+    display: none;
+}
+
+  .nav-social-media {
+      width: 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20px;
+  }
+  
+  .nav-social-media img {
+      transition: opacity 0.4s ease;
+  }
+  
+  .nav-social-media img:hover {
+      opacity: 0.8;
+  }
+  
+  .nav-social-media img:active {
+      opacity: 0.6;
+  }
+  .menu-link {
+      display: none;
+  }
+  .menu-x-link {
+      display: none;
+  }
+  .drop-down-menu-nav {
+      display: none;
+  }
+  /*End site-header*/
+
+  /* start site header media query for tabs */
+  @media only screen and (max-width: 1024px) {
+    .contact-us-link, .logo-link, .working-hours {
+        display: none;
+    }
+    .divider {
+        width: 1024px;
+        transform: translateY(-9.5px);
+        justify-content: space-around;
+    }
+
+    .heading-link {
+        display: block;
+        text-decoration: none;
+        transition: opacity .4s ease;
+    }
+
+    .heading-link:hover {
+        opacity: 0.8;
+    }
+
+    .heading-link:active {
+        opacity: 0.6;
+    }
+
+    .heading-link h1 {
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+    }
+
+    .heading-link h1 span {
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFD600;
+    }
+
+    .container {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .divider {
+        width: 375px;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .site-nav-list {
+        display: none;
+    }
+    .nav-social-media {
+        display: none;
+    }
+    .menu-link {
+        display: block;
+    }
+    .media-none {
+        display: block;
+    }
+    .drop-down-menu-nav {
+        position: absolute;
+        width: 375px;
+        background-color: #0055B8;
+        transform: translateY(253px);
+        margin-left: -20px;
+    }
+    .drop-down-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    } 
+    .deop-down-item a{
+       font-weight: 500;
+       font-size: 18px;
+       line-height: 21px;
+       text-transform: uppercase;
+       color: #FFD600;
+       text-decoration: none;
+       display: block;
+       padding: 20px 0px;
+    }
+    .deop-down-item a:hover {
+       background-color: #FFD600;
+       color: #0055B8;
+    }
+    .deop-down-item {
+       border-top: 1px solid #FFD600;
+       border-bottom: 1px solid #FFD600;
+    }
+    .media-none {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+        padding-top: 68px;
+        padding-bottom: 26px;
+        margin: 0px auto;
+    } 
+
+    .drop-down-menu-nav {
+        display: block;
+        z-index: 10;
+    }
+  } /* End medi query for header  */
+
+  /* Start site main  */
+  /* Start get smile section  */
+  .get-smile-section {
+      background-image: url(../img/smile-img.png);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: contain;
+  }
+  .container {
+      width: 1140px;
+      margin: 0px auto;
+  }
+  .get-smile {
+      padding-top: 300px;
+      /* padding-bottom: 147px; */
+      transform: translateY(-130px);
+  }
+  .get-smile p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+    margin: 0;
+    width: 360px;
+  }
+  .get-smile h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #272727;
+    margin: 0;
+    margin-top: 10px;
+    width: 543px;
+  }
+  .get-button {
+    background-color: #0055B8;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    width: 265px;
+    height: 70px;
+    outline: none;
+    margin-top: 27px;
+    transition: opacity 0.4s ease;
+  }
+  .get-button:hover {
+    opacity: 0.8;
+  }
+  .get-button:active {
+    opacity: 0.6;
+  }
+  .buttons {
+      margin-top: 20px;
+  }
+  .first {
+    background-color: #FFD600;
+    border-radius: 5px;
+    width: 42px;
+    height: 70px;
+    outline: none;
+    transition: opacity 0.4s ease;
+  }
+  .first:hover {
+    opacity: 0.8;
+  }
+  .first:active {
+    opacity: 0.6;
+  }
+  .second {
+    background-color: #FFD600;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    outline: none;
+    transition: opacity 0.4s ease;
+  }
+  .second:hover {
+    opacity: 0.8;
+  }
+  .second:active {
+    opacity: 0.6;
+  }
+/* Start get smile section  */
+
+/* Start get smile responsive  */
+@media only screen and (max-width: 1024px) {
+    .get-smile-section {
+        transform: translateY(-10px);
+        background-size: cover;
+        width: 1024px;
+    }
+    .get-smile {
+        transform: translateY(20px);
+        width: 1024px;
+    }
+    .divider {
+        width: 1024px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .get-smile p {
+        display: none;
+    }
+    .get-smile h1 {
+        display: none;
+    }
+    .get-button {
+        display: none;
+    }
+    .first {
+        width: 26px;
+    }
+    .second {
+        width: 44px;
+    }
+    .get-smile-section {
+        background-position: center;
+        width: 375px;
+    }
+    .get-smile {
+        width: 375px;
+    }
+    .divider {
+        width: 375px;
+    }
+}
+/* end responsive get smile  */
+
+/* Start teeth info section  */
+.teeth-info {
+    display: flex;
+    position: relative;
+}
+
+.treatment {
+    background-color: #FFD600;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+}
+.treatment h4 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+}
+.treatment p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #272727;
+}
+
+.prosthetics {
+    background-color: #FFE040;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+}
+.prosthetics h4 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+}
+.prosthetics p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #272727;
+}
+.form {
+    background-color: #0055B8;
+    border-radius: 5px;
+    width: 540px;
+    height: 400px;
+    padding: 20px 33px;
+}
+.form label {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.form input{
+    display: block;
+}
+.form-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 473px;
+    height: 55px;
+    outline: none;
+    background-color: #0055B8;
+    margin-top: 29px;
+}
+.form-input2 {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 473px;
+    height: 55px;
+    outline: none;
+    background-color: #0055B8;
+    margin-top: 12px;
+}
+.form button {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #272727;
+    background-color: #FFD600;
+    border-radius: 5px;
+    width: 230px;
+    height: 55px;
+    margin-top: 12px;
+    transition: opacity 0.4s ease;
+}
+.form button:hover {
+    opacity: 0.8;
+}
+.form button:active {
+    opacity: 0.6;
+}
+
+.give {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.give p {
+    width: 255px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.give input {
+    width: 35px;
+    height: 35px;
+}
+.la {
+    position: absolute;
+    margin-left: 600px;
+    transform: translateY(-60px);
+}
+/* End teeth-info section  */
+
+/* Start teeh-info responsive  */
+@media only screen and (max-width: 1024px) {
+    .teeth-info {
+        width: 1024px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
