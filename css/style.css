@@ -299,7 +299,9 @@
         width: 375px;
         background-color: #0055B8;
         transform: translateY(253px);
-        margin-left: -20px;
+        margin-left: 355px;
+        display: block;
+        z-index: 10;
     }
     .drop-down-list {
         list-style-type: none;
@@ -334,11 +336,6 @@
         padding-bottom: 26px;
         margin: 0px auto;
     } 
-
-    .drop-down-menu-nav {
-        display: block;
-        z-index: 10;
-    }
   } /* End medi query for header  */
 
   /* Start site main  */
