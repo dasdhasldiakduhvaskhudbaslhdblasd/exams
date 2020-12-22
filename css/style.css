@@ -939,6 +939,144 @@ color: rgba(0, 0, 0, 0.25);
     transform: translateY(-30px);
 }
 
+.parent-box{
+    display: flex;
+  }
+  
+  .box30{
+    display: block;
+  }
+  
+  .tel1{
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+  }
+  
+  .tel2{
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    margin-left: 142px;
+    color: #000000;
+  }
+  
+  .pochta{
+    display: flex;
+    /*align-items: center;*/
+  }
+  
+  .pochta img{
+    margin-top: 33px;
+  }
+  
+  .pochta0{
+    margin-top: 33px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-left: 12px;
+  }
+  
+  .pochta1{
+    font-size: 18px;
+    line-height: 21px;
+    width: 198px;
+    color: #000000;
+    margin-left: 9px;
+    margin-top: 14px;
+  }
+  
+  .privaxy{
+    font-size: 14px;
+    line-height: 16px;
+    width: 140px;
+    margin-top: 22px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .servis{
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 17px;
+    color: #000000;
+  }
+  
+  .box40{
+    margin-left: 67px;
+  }
+  
+  .box40 li{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .box50{
+    margin-left: 116px;
+    display: block;
+  }
+  
+  .box60{
+    margin-left: 187px;
+    display: block;
+  }
+  
+  .serviss{
+    color: transparent;
+  }
+  
+  .consent{
+    width: 198px;
+  }
+  
+  .license{
+    width: 148px;
+    margin-top: 16px;
+  }
+  
+  .hr50{
+    border: none;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+  
+  .zis{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 430px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  .last {
+      margin-top: 50px;
+  }
+  .box40 ul {
+      list-style-type: none;
+      padding: 0;
+  }
 
+  @media only screen and (max-width: 1024px) {
+    .parent-box {
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .parent-box {
+        display: none;
+    }
+}
+
+  /*end*/
 
 
